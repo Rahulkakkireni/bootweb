@@ -1,0 +1,57 @@
+.empty{
+    width:2000px;
+    height:2px;
+    background-color: green;
+}
+.box{
+    width:2000px;
+    height: 40px;
+
+}
+nav{
+    width:2000px;
+    height: 40px;
+}
+nav a{
+    padding: 30px;
+    height: 50px;
+    width: 40px;
+    
+    
+    
+}
+nav a:hover{
+    background-color:green;
+    
+}
+.container{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+
+}
+.col{
+    width:20%;
+    height:300px;
+    margin:20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-color:crimson;
+    
+}
+.circle{
+    background-color: blue;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size:larger;
+}
+p{
+    font-size: small;
+}
+
+
